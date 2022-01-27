@@ -1,0 +1,177 @@
+/* card1 basic card */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cards {
+    background-color: whitesmoke;
+    margin: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 30px;
+}
+
+.card-container {
+    background-color: white;
+    height: 390px;
+    width: 350px;
+    border-radius: 2%;
+    box-shadow: 50px 50px 50px 50px rgba(206, 96, 96, 0.1);
+}
+
+.card-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-above-radius {
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    height: 200px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    margin-top: 10px;
+}
+
+.card-body small {
+    margin: 5px;
+    color: gray;
+}
+
+.card-body p {
+    display: block;
+    font-size: 0.95rem;
+    margin-left: 0.75px;
+    padding-top: 10px;
+    color: rgb(167, 163, 163);
+    margin-top: 0.5px;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 0rem;
+    margin-top: 20px;
+    /* padding-bottom: 5rem; */
+}
+
+a {
+    text-decoration: none;
+    background-color: none;
+    font-weight: 800;
+}
+
+.card-link {
+    color: rgb(72, 66, 155);
+}
+
+.icon-card {
+    border: none;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+
+/* basic/w overlay text */
+
+.card-2-container {
+    background-color: white;
+    height: 340px;
+    width: 350px;
+    border-radius: 2%;
+    box-shadow: 50px 50px 50px 50px rgba(206, 96, 96, 0.1);
+}
+
+.card-img-overlay-img {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body-overlay-text {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 20px;
+    color: white;
+}
+
+
+/* basic/w header first */
+
+.img-no-radius {
+    height: 200px;
+}
+
+
+/* basic/w only buttons */
+
+.card-footer-btn-only {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0rem;
+    margin-top: 20px;
+}
+
+.btn-only1 {
+    margin-left: 30px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.btn-only2 {
+    position: absolute;
+    margin-left: 135px;
+}
+
+
+/* basic/w only icons */
+
+.card-footer-icon-only {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+
+/* horizontal image and text */
+
+.card-6-container {
+    background-color: white;
+    height: 170px;
+    width: 350px;
+    border-radius: 2%;
+    box-shadow: 50px 50px 50px 50px rgba(206, 96, 96, 0.1);
+}
+
+.img-above-radius-card-6 {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    height: 120px;
+    width: 120px;
+}
+
+.card-6-body {
+    margin-top: -105px;
+    margin-left: 140px;
+    /* position:relative; */
+}
+
+.card-6-author {
+    color: gray;
+}
+
+.horizontal-card-footer {
+    margin-top: 80px;
+    /* position:absolute; */
+}

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&family=Shippori+Antique&display=swap");
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "monoscape", sans-serif;
+}
+
+.dailog-section {
+    margin: 20px 20px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 237, 237);
+    width: 1200px;
+    height: 300px;
+}
+
+.dailog-container {
+    width: 15rem;
+    height: 10rem;
+    margin-top: 30px;
+    border-radius: 2%;
+    border-style: none;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+}
+
+.dialog-header {
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 15px 0 0 10px;
+}
+
+.dailog-subheading {
+    font-size: 16px;
+    color: gray;
+    padding-top: 15px;
+    padding: 10px 0 0 15px;
+}
+
+.action {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 50px 20px 10px 0px;
+}
+
+.action-btn {
+    color: rgba(41, 4, 94, 0.546);
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Roboto;
+    padding: 10px 0 0 10px;
+}
+
+.dailog-container-2 {
+    width: 15rem;
+    height: 15rem;
+    /* margin-top: 30px; */
+    border-radius: 2%;
+    border-style: none;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+    padding: 0.5rem 1rem;
+}
+
+.dialog-items {
+    margin-top: 20px;
+}
+
+.contacts {
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0.5rem 1rem;
+}
+
+.contacts:hover {
+    background-color: lightgray;
+}
+
+.action-btn:hover {
+    background-color: lightgray;
+    padding: 0.5rem 1rem;
+}
+
+.fa-user-circle {
+    color: gray;
+    font-size: 2.5rem;
+}

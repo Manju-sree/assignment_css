@@ -1,0 +1,174 @@
+body {
+    font-family: sans-serif;
+}
+
+.badges {
+    position: relative;
+    background-color: #f8efef;
+    box-sizing: border-box;
+    width: 450px;
+    height: 300px;
+    margin: 30px 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+/* badge1:Text with a badge */
+
+.badge1 {
+    margin-top: 30px;
+    position: absolute;
+}
+
+.text1 {
+    padding-left: 10px;
+    position: relative;
+}
+
+.count1 {
+    padding: 3px 7px 5px 7px;
+    position: absolute;
+    font-size: 0.75rem;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(88, 88, 228);
+    border-radius: 50%;
+    margin-top: -12px;
+    margin-left: 1px;
+}
+
+
+/* badge1:end */
+
+
+/* badge2:Text with large badge */
+
+.badge2 {
+    margin-top: 60px;
+    position: absolute;
+}
+
+.text2 {
+    padding-left: 10px;
+    position: relative;
+}
+
+.count2 {
+    padding: 0px 6.5px 0px 6.5px;
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(88, 88, 228);
+    border-radius: 50%;
+    margin-top: -19px;
+    margin-left: -18px;
+}
+
+
+/* badge2:end */
+
+
+/* badge3:Button with a badge on the left */
+
+.badge3 {
+    margin-top: 90px;
+    position: absolute;
+    padding-left: 10px;
+}
+
+.button1 {
+    background-color: rgb(88, 88, 228);
+    position: relative;
+    border-radius: 8%;
+    padding: 10px 15px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    border: none;
+}
+
+.count3 {
+    padding: 5px 9px;
+    position: absolute;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(247, 15, 177);
+    border-radius: 50%;
+    margin-top: -15px;
+    margin-left: -80px;
+}
+
+
+/* badge3:end */
+
+
+/* badge4:Button toggles badge visibility */
+
+.badge4 {
+    margin-top: 140px;
+    position: absolute;
+    padding-left: 10px;
+}
+
+.button2 {
+    background-color: white;
+    position: relative;
+    border-radius: 8%;
+    padding: 10px 15px;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    border: none;
+}
+
+.count4 {
+    padding: 3px 6px 4px 6px;
+    position: absolute;
+    font-size: 0.85rem;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(88, 88, 228);
+    border-radius: 50%;
+    margin-top: -12px;
+    margin-left: -12px;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* badge4:end */
+
+
+/* badge5:Icon with a badg */
+
+.badge5 {
+    margin-top: 190px;
+    position: absolute;
+    padding-left: 10px;
+}
+
+.icon-badge {
+    position: relative;
+    padding: 0px 1px;
+    color: black;
+}
+
+.count5 {
+    padding: 3.5px 3.5px;
+    position: absolute;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(240, 40, 40);
+    border-radius: 50%;
+    margin-top: -15px;
+    margin-left: -10px;
+}
+
+
+/* badge5:end */

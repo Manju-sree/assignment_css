@@ -1,0 +1,39 @@
+@import "cards.css";
+@import "chips.css";
+@import "drawer.css";
+@import "header.css";
+@import "badge.css";
+@import "snackbar.css";
+@import "dailog.css";
+@import "tabs.css";
+.back-button {
+    margin: 25rem;
+    width: 100;
+    background-color: burlywood;
+    border: 20rem;
+    padding: 0 5rem 0 5rem;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-block: 5%;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    margin: 0.2rem 0.2rem 0.4rem;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+    color: black;
+    align-content: center;
+    border-width: 10%;
+}
